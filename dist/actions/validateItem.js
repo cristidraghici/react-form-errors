@@ -9,7 +9,7 @@ var _findErrors = require('./findErrors');
 
 var _findErrors2 = _interopRequireDefault(_findErrors);
 
-var _hasErrors = require('./hasErrors');
+var _hasErrors = require('../utils/hasErrors');
 
 var _hasErrors2 = _interopRequireDefault(_hasErrors);
 
