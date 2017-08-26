@@ -1,6 +1,6 @@
 {
   "name": "react-form-errors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Form validator for react containers",
   "main": "dist/index.js",
   "scripts": {

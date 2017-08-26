@@ -1,6 +1,6 @@
 import {size} from 'lodash'
 import findErrors from './findErrors'
-import hasErrors from './hasErrors'
+import hasErrors from '../utils/hasErrors'
 
 export default function validateItem(rules) {
     // do not block or test if rules is empty
