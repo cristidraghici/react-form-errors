@@ -1,0 +1,42 @@
+{
+  "name": "react-form-errors",
+  "version": "1.0.1",
+  "description": "Form validator for react containers",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "babel-node test/index.js",
+    "build": "babel src --presets babel-preset-es2015-loose,stage-1 --out-dir dist",
+    "prepublish": "echo 'Work in progress' && exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristidraghici/react-form-errors.git"
+  },
+  "keywords": [
+    "react",
+    "validator"
+  ],
+  "author": "Cristi DRAGHICI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cristidraghici/react-form-errors/issues"
+  },
+  "homepage": "https://github.com/cristidraghici/react-form-errors#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "validator": "^8.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-css-modules-transform": "^1.2.7",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-register": "^6.11.5"
+  }
+}
