@@ -15,7 +15,7 @@ import allowEmpty from './utils/allowEmpty'
 import hasErrors from './utils/hasErrors'
 import onlyIf from './utils/onlyIf'
 
-export default {
+export {
     applyRules,
     findErrors,
     validateItem,

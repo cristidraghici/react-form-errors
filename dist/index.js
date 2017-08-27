@@ -1,6 +1,7 @@
 'use strict';
 
 exports.__esModule = true;
+exports.onlyIf = exports.hasErrors = exports.allowEmpty = exports.notNull = exports.notEmpty = exports.minLength = exports.maxLength = exports.isStrongPassword = exports.isPhone = exports.isEmail = exports.isAddress = exports.validateItem = exports.findErrors = exports.applyRules = undefined;
 
 var _applyRules = require('./actions/applyRules');
 
@@ -60,21 +61,17 @@ var _onlyIf2 = _interopRequireDefault(_onlyIf);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = {
-    applyRules: _applyRules2.default,
-    findErrors: _findErrors2.default,
-    validateItem: _validateItem2.default,
-
-    isAddress: _isAddress2.default,
-    isEmail: _isEmail2.default,
-    isPhone: _isPhone2.default,
-    isStrongPassword: _isStrongPassword2.default,
-    maxLength: _maxLength2.default,
-    minLength: _minLength2.default,
-    notEmpty: _notEmpty2.default,
-    notNull: _notNull2.default,
-
-    allowEmpty: _allowEmpty2.default,
-    hasErrors: _hasErrors2.default,
-    onlyIf: _onlyIf2.default
-};
+exports.applyRules = _applyRules2.default;
+exports.findErrors = _findErrors2.default;
+exports.validateItem = _validateItem2.default;
+exports.isAddress = _isAddress2.default;
+exports.isEmail = _isEmail2.default;
+exports.isPhone = _isPhone2.default;
+exports.isStrongPassword = _isStrongPassword2.default;
+exports.maxLength = _maxLength2.default;
+exports.minLength = _minLength2.default;
+exports.notEmpty = _notEmpty2.default;
+exports.notNull = _notNull2.default;
+exports.allowEmpty = _allowEmpty2.default;
+exports.hasErrors = _hasErrors2.default;
+exports.onlyIf = _onlyIf2.default;
